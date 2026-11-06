@@ -1,0 +1,19 @@
+{
+  "name": "فريق التسبيح",
+  "short_name": "التسبيح",
+  "description": "تنظيم فريق التسبيح: الحضور، الترانيم، أعياد الميلاد، الجدول، طلبات الصلاة، الأفكار والخطة السنوية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F4FB",
+  "theme_color": "#5B3FA8",
+  "categories": ["productivity", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
