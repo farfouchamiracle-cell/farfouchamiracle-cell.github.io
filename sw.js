@@ -1,6 +1,6 @@
 // Simple offline support: the app shell is cached; data comes from Firebase (which has its own offline cache).
 const CACHE = "tasbeeh-v1";
-const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./db.js", "./firebase-config.js", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
+const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./db.js", "./firebase-config.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => {
